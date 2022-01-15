@@ -17,14 +17,11 @@ let tqto = `
 
 Nurutomo: 
 https://github.com/Nurutomo
-Istikmal: 
-https://github.com/BochilGaming
-Ariffb: 
-https://github.com/Ariffb25
-Ilman: 
-https://github.com/ilmanhdyt
-Amirul: 
-https://github.com/amiruldev20
+Istikmal
+Ariffb
+Ilman
+Amirul
+ItsmeAl
 `
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
@@ -35,8 +32,8 @@ https://github.com/amiruldev20
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: '💠 Source Code',
-               url: 'https://github.com/ilmanhdyt/ShiraoriBOT-Md'
+               displayText: 'My Insta',
+               url: 'https://www.instagram.com/itsmealwi_'
              }
 
            },
